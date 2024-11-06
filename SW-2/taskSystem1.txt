@@ -1,0 +1,7 @@
+Here's a breakdown of its function:
+
+CMD: This instruction defines the default command and its parameters for the container. If you don't specify a command when running the container, this command will be executed.
+
+["java", "System1"]: This is the command and its arguments in JSON array format. It means that when the container starts, it will run the java command with System1 as an argument. Typically, System1 would refer to the main class of a Java application that you want to execute.
+
+Using this format (JSON array) is preferred because it avoids issues with command interpretation that can occur with the shell form.
